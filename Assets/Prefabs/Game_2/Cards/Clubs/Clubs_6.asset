@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d761a7b0f885e164ab1a9f734c31a5df, type: 3}
+  m_Name: Clubs_6
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 723144989, guid: dc67ec77277025146a14c61c76970c47, type: 3}
+  grade: 3
+  value: 6
+  previousPossible: {fileID: 11400000, guid: 22082a6fa61070a4490b49f5300b8e49, type: 2}
+  nextPossible: {fileID: 11400000, guid: cc2f28f2a0ef80f40b3aec0edafaa4be, type: 2}

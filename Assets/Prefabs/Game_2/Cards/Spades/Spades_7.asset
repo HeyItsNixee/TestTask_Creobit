@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d761a7b0f885e164ab1a9f734c31a5df, type: 3}
+  m_Name: Spades_7
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -25139141, guid: dc67ec77277025146a14c61c76970c47, type: 3}
+  grade: 2
+  value: 7
+  previousPossible: {fileID: 11400000, guid: 506283386969fe343acc062c7515ed39, type: 2}
+  nextPossible: {fileID: 11400000, guid: efb3da58a792c6a4e90857eab6aefba5, type: 2}
