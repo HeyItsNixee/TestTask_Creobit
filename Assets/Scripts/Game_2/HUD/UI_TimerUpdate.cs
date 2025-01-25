@@ -7,6 +7,8 @@ public class UI_TimerUpdate : MonoBehaviour
     [SerializeField] private Text minutes;
     [SerializeField] private Text seconds;
 
+    private int h = 0, m = 0, s = 0;
+
     private void Update()
     {
         UpdateTimeText();
@@ -14,10 +16,9 @@ public class UI_TimerUpdate : MonoBehaviour
 
     private void UpdateTimeText()
     {
-        int h = 0, m = 0, s = 0;
-        h = (int)CardGameManager.Instance.Timer / 3600;
-        m = (int)CardGameManager.Instance.Timer / 60;
-        s = (int)CardGameManager.Instance.Timer;
+        h = CardGameManager.Instance.Hours;
+        m = CardGameManager.Instance.Minutes;
+        s = CardGameManager.Instance.Seconds;
 
         if (h < 10 && h >= 0)
             hours.text = "0" + h.ToString();

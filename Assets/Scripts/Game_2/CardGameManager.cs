@@ -15,7 +15,11 @@ public class CardGameManager : Singleton<CardGameManager>
     public CardObject HoldingCard => holdingCard;
     public bool IsGameStarted => isGameStarted;
     public int Turn => currentTurn;
-    public float Timer => timer;
+
+    public int Hours => (int)timer / 3600;
+    public int Minutes => (int)(timer - (3600 * Hours)) / 60;
+    public int Seconds => (int)(timer - (3600 * Hours)) % 60;
+
     public Action turnIncresed;
     public Action playerWin;
     public Action playerLose;
